@@ -6,8 +6,15 @@
             <div class="col-md-6"></div>
             <div class="card mb-1 mt-5 col-md-6">
                 <div class="card-body">
-                    <h5 class="card-title"><i><b>{{$etkinlik->etkinlikBaslik}}</b></i></h5>
-                    <p class="card-text">{{$etkinlik->etkinlikAciklama}}</p>
+                    <!-- resources/views/show_image.blade.php -->
+                    <img src="{{ route('etkinlik.image', ['id' => $etkinlik->id]) }}" alt="Etkinlik Resmi"
+                        style="width: 100px; height: 100px;">
+                    <h5 class="card-title" style="display: inline"><i><b>{{$etkinlik->etkinlikBaslik}}</b></i></h5>
+
+
+
+                    <p class="card-text" style="display: block">{{$etkinlik->etkinlikAciklama}}</p> <br>
+                    <p class="card-text" style="display: block">{{$etkinlik->etkinlikadi}}</p>
                 </div>
             </div>
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
@@ -16,8 +23,7 @@
             </div>
         </div>
     @endforeach
-    <!-- Merhaba Özlem -->
-    <!-- selammlar ahmet :) -->
+
 
 </div>
 @include('inc/footer')

@@ -67,6 +67,8 @@
                         href="/pages/dashboard">Etkinlik Ekle</a></li>
                 <li class="nav-item  btn btn-outline-danger"><a class="nav-link rounded-pill"
                         href="/pages/page-table-listing">Etkinlik Konum Bilgisi</a></li>
+                <li class="nav-item  btn btn-outline-danger"><a class="nav-link rounded-pill"
+                        href="/pages/page-table-listing">Etkinlikte Çekilen İçerikleri Gönder</a></li>
             </ul>
 
             <div class="navbar-nav justify-content-end gap-2 ">
