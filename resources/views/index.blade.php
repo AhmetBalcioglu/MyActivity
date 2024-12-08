@@ -1,6 +1,6 @@
 @include('inc/header')
 
-<div class="container" style="background-color:#f2a100; margin-top: 100px; height: 800px">
+<div class="container" style="background-color:#f2a100; margin-top: 100px; height: 100%">
     @foreach ($etkinlikler as $etkinlik)
     <div class="row">
         <div class="col-md-2"></div>
