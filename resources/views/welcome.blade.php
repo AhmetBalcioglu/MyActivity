@@ -9,7 +9,7 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <style>
         body {
-            background-image: url('{{ asset('img/bg.jpg') }}');
+            background-image: url('../img/bg.jpg');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
