@@ -16,6 +16,7 @@
         </div>
     </div>
     @endforeach
+    <!-- Merhaba Özlem -->
 
 </div>
 @include('inc/footer')

@@ -26,5 +26,6 @@ class EtkinlikEkleController extends Controller
     public function etkinlikSil(Request $request)
     {
         dd($request->id); #TODO: burdaki id DB'den silincek
+        
     }
 }
