@@ -26,36 +26,36 @@
             </form>
             <div class="row mb-3">
                 <div class="col-md-6 text-center">
-                    <button onclick="window.location.href='{{ route('register') }}'" class="btn btn-primary">Kayıt Ol</button>
+                    <a href="{{ route('register') }}" class="btn btn-primary">Kayıt Ol</a>
                 </div>
                 <div class="col-md-6 text-center">
-                    <button onclick="window.location.href='{{ route('forgot-password') }}'" class="btn btn-danger">Şifremi Unuttum!</button>
+                    <a href="{{ route('forgot-password') }}" class="btn btn-danger">Şifremi Unuttum!</a>
                 </div>
             </div>
             <div class="row">
                 @if(session('success'))
-                    <div class="alert alert-success">
-                        {{ session('success') }}
-                    </div>
+                <div class="alert alert-success">
+                    {{ session('success') }}
+                </div>
                 @endif
                 @if(session('warning'))
-                    <div class="alert alert-warning">
-                        {{ session('warning') }}
-                    </div>
+                <div class="alert alert-warning">
+                    {{ session('warning') }}
+                </div>
                 @endif
                 @if(session('error'))
-                    <div class="alert alert-danger">
-                        {{ session('error') }}
-                    </div>
+                <div class="alert alert-danger">
+                    {{ session('error') }}
+                </div>
                 @endif
                 @if ($errors->any())
-                    <div class="alert alert-danger">
-                        <ul>
-                            @foreach ($errors->all() as $error)
-                                <li>{{ $error }}</li>
-                            @endforeach
-                        </ul>
-                    </div>
+                <div class="alert alert-danger">
+                    <ul>
+                        @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                </div>
                 @endif
             </div>
         </div>
