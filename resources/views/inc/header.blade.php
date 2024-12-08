@@ -50,10 +50,15 @@
             <h1 style="color: #7f003f; text-shadow: 2px 2px 2px black">Etkinlik Yönetim Sistemi</h1>
         </div>
         <div class="col-md-3 ">
-            <form class="d-flex mt-5 " role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button style="margin-top: 20px ;margin-left: 240px" class="btn btn-outline-success" type="submit">Kullanıcı
+                Girişi</button>
+            <button style="margin-top: 20px; margin-left: 10px" class="btn btn-outline-success" type="submit">Üye
+                Ol</button>
+            <form class="d-flex mt-2 " role="search">
+                <input class="form-control " type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-danger" type="submit">Search</button>
             </form>
+
         </div>
     </div>
 
