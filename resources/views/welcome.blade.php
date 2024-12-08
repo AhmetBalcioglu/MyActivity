@@ -29,13 +29,13 @@
 
                         <ul class="navbar-nav gap-2 mx-lg-auto">
                             <li class="nav-item"><a class="nav-link nav-pills" href="/" aria-current="page">Etkinlikler</a></li>
-                            <li class="nav-item"><a class="nav-link button button-bg-dark" href="/pages/dashboard.html">Etkinlik Ekle</a></li>
-                            <li class="nav-item"><a class="nav-link rounded-pill" href="/pages/page-table-listing.html">Etkinlik Konum Bilgisi</a></li>
+                            <li class="nav-item"><a class="nav-link button button-bg-dark" href="/pages/dashboard">Etkinlik Ekle</a></li>
+                            <li class="nav-item"><a class="nav-link rounded-pill" href="/pages/page-table-listing">Etkinlik Konum Bilgisi</a></li>
                         </ul>
 
                         <div class="navbar-nav justify-content-end gap-2 ">
-                            <a class="nav-item nav-link " href="/pages/login.html">Hoşgeldin ,</a>
-                            <a class="nav-item nav-link " href="/pages/login.html">Sign in</a>
+                            <a class="nav-item nav-link " href="/pages/login">Hoşgeldin ,</a>
+                            <a class="nav-item nav-link " href="/pages/login">Sign in</a>
                         </div>
                         
                     </div>
