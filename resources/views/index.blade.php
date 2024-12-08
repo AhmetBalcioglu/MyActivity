@@ -1,5 +1,20 @@
 @include('inc/header')
 
+<!-- Giriş başarılı uyarısı -->
+@if(session('success'))
+<div class="alert alert-success" id="etkinlikler-alert">
+    {{ session('success') }}
+</div>
+@endif
+
+<script>
+    // Giriş başarılı uyarısını 2.5 saniye sonra gizle
+    window.onload = function() {
+        setTimeout(function() {
+            document.getElementById('etkinlikler-alert').style.display = 'none';
+        }, 2500);
+    };
+</script>
 <div class="container" style="background-color:#f2a100; margin-top: 100px; height: 100%">
     @foreach ($etkinlikler as $etkinlik)
     <div class="row">
