@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Dec 08, 2024 at 08:04 AM
+-- Generation Time: Dec 08, 2024 at 08:07 AM
 -- Server version: 8.3.0
 -- PHP Version: 8.2.18
 
@@ -58,8 +58,8 @@ CREATE TABLE IF NOT EXISTS `cache_locks` (
 DROP TABLE IF EXISTS `etkinlikler`;
 CREATE TABLE IF NOT EXISTS `etkinlikler` (
   `id` int UNSIGNED NOT NULL AUTO_INCREMENT,
-  `etkinlikBaslik` varchar(50) COLLATE utf8mb4_general_ci NOT NULL,
-  `etkinlikAciklama` varchar(2000) COLLATE utf8mb4_general_ci NOT NULL,
+  `etkinlikBaslik` varchar(2000) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `etkinlikAciklama` mediumtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
