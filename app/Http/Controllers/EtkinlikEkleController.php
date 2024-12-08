@@ -22,4 +22,9 @@ class EtkinlikEkleController extends Controller
 
         return redirect('/');
     }
+
+    public function etkinlikSil(Request $request)
+    {
+        dd($request->id); #TODO: burdaki id DB'den silincek
+    }
 }
