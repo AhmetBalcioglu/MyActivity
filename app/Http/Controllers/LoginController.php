@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class LoginController extends Controller
 {
     public function login(){
-        dd('TODO: login');
+        return view('login');
     }
 }

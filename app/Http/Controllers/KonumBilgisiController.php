@@ -8,6 +8,6 @@ class KonumBilgisiController extends Controller
 {
     public function index()
     {
-        dd('TODO: Konum Bilgisi');
+        return view('konum');
     }
 }
