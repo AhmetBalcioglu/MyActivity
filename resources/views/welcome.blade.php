@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 
 <head>
     <meta charset="UTF-8">
@@ -21,50 +21,33 @@
 </head>
 
 <body>
-
-
-    <div class="container " style="  margin-left: 100px">
-
+    <div class="container" style="margin-left: 100px">
         <div class="container px-lg-3 py-1 shadow-5 rounded-3 rounded-lg-pill fixed-top ">
             <nav class="navbar navbar-expand-lg navbar-dark p-0 " id="navbar">
                 <div class="container px-sm-0">
-
                     <div class=" collapse navbar-collapse btn btn-secondary" id="navbarCollapse">
+
                         <ul class="navbar-nav gap-2 mx-lg-auto">
-
-                            <li class="nav-item"><a class="nav-link nav-pills" href="/"
-                                    aria-current="page">Etkinlikler</a>
-                            </li>
-                            <li class="nav-item"><a class="nav-link button button-bg-dark "
-                                    href="/pages/dashboard.html">Etkinlik Ekle</a>
-                            </li>
-                            <li class="nav-item"><a class="nav-link rounded-pill"
-                                    href="/pages/page-table-listing.html">Etkinlik Konum Bilgisi</a></li>
-
+                            <li class="nav-item"><a class="nav-link nav-pills" href="/" aria-current="page">Etkinlikler</a></li>
+                            <li class="nav-item"><a class="nav-link button button-bg-dark" href="/pages/dashboard.html">Etkinlik Ekle</a></li>
+                            <li class="nav-item"><a class="nav-link rounded-pill" href="/pages/page-table-listing.html">Etkinlik Konum Bilgisi</a></li>
                         </ul>
+
                         <div class="navbar-nav justify-content-end gap-2 ">
-                            <a class="nav-item nav-link " href="/pages/login.html">Hoşgeldin ,
-                            </a>
-                            <a class="nav-item nav-link " href="/pages/login.html">Sign
-                                in</a>
+                            <a class="nav-item nav-link " href="/pages/login.html">Hoşgeldin ,</a>
+                            <a class="nav-item nav-link " href="/pages/login.html">Sign in</a>
                         </div>
+                        
                     </div>
                 </div>
             </nav>
         </div>
-
-
     </div>
     <div class="container" style="background-color:#f2a100; margin-top: 100px; height: 800px">
+
         test
 
-
     </div>
-
-
-
-
-
 </body>
 
 
