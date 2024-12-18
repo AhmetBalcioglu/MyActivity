@@ -8,6 +8,7 @@
 @endif
 
 <script>
+    dngdklfmgm
     // Giriş başarılı uyarısını 2.5 saniye sonra gizle
     window.onload = function () {
         setTimeout(function () {
